@@ -1,0 +1,36 @@
+.table01, th, td {
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.table01 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.table02 {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.border-bottom {
+  border: none;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding: 10px;
+}
+
+.table03 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hoverable-tr:hover {
+  background-color: aqua;
+}
